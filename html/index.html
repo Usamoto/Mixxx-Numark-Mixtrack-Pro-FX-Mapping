@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to the System</title>
+    <link rel="stylesheet" href="css/matrix.css" />
+    <script src="js/matrix.js" defer></script>
+    <script src="js/mode-toggle.js" defer></script>
+</head>
+<body class="matrix-bg">
+<canvas id="matrixCanvas"></canvas>
+
+<div class="intro-center">
+    <button id="enterButton">CLICK ME</button>
+</div>
+
+<div id="pillChoice" class="pill-container hidden">
+    <p>Choose your path:</p>
+    <button class="pill red">RED PILL</button>
+    <button class="pill blue">BLUE PILL</button>
+    <p class="pill-hint">(Red = Light Mode | Blue = Acid Dark Mode)</p>
+</div>
+
+<script>
+    document.getElementById('enterButton').addEventListener('click', () => {
+        document.getElementById('pillChoice').classList.remove('hidden');
+        document.getElementById('enterButton').style.display = 'none';
+    });
+</script>
+</body>
+</html>
