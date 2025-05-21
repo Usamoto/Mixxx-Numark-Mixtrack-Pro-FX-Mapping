@@ -1,3 +1,5 @@
+![Numark Mixtrack Pro FX Controller](docs/assets/gptcontroller.png)
+
 # 🎛️ Numark Mixtrack Pro FX - Mixxx 2.5.0 Mapping
 
 This project contains a **complete custom mapping** for the **Numark Mixtrack Pro FX** DJ controller to work with the **Mixxx 2.5.0** DJ software on **Windows 10**.
